@@ -7,7 +7,7 @@ return {
     description = "An opinionated blade template formatter for Laravel that respects readability",
   },
   command = util.find_executable({
-    "tools/blade_formatter/vendor/bin/blade-formatter",
+    "tools/blade-formatter/vendor/bin/blade-formatter",
     "vendor/bin/blade-formatter",
   }, "blade-formatter"),
   args = { "$FILENAME" },
